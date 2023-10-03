@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/ /* Deixar imagem fixa de fundo enquanto o conteúdo do site é passado com o scroll */
 
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,7 +36,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, molestias! Magni corporis beatae illum quidem, temporibus, commodi quam accusantium nihil ipsum voluptate velit labore odit voluptatum? Alias cumque maiores esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores debitis recusandae veritatis dolorum, a repellat natus repellendus quae excepturi explicabo perspiciatis exercitationem sunt obcaecati tenetur consequatur commodi autem asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit autem adipisci totam distinctio, iusto rem illum porro, doloremque, asperiores ratione delectus illo atque? Blanditiis similique vero, voluptates odit ullam atque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, molestias! Magni corporis beatae illum quidem, temporibus, commodi quam accusantium nihil ipsum voluptate velit labore odit voluptatum? Alias cumque maiores esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores debitis recusandae veritatis dolorum, a repellat natus repellendus quae excepturi explicabo perspiciatis exercitationem sunt obcaecati tenetur consequatur commodi autem asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit autem adipisci totam distinctio, iusto rem illum porro, doloremque, asperiores ratione delectus illo atque? Blanditiis similique vero, voluptates odit ullam atque! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, alias! Quo a provident nesciunt qui cumque, doloribus est et modi delectus pariatur rerum ducimus error unde alias vero sed repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsum sunt architecto natus ut sequi eaque voluptatem sit dolores aut, fuga iusto illum cumque temporibus aperiam excepturi commodi animi praesentium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, ad aliquid. Cumque, odio porro. Similique, commodi accusantium unde quis minima, porro sit omnis hic deleniti quos nostrum deserunt est quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto fugit quod in aut rem, quae id et labore error, vel velit tenetur distinctio odit nulla impedit! Consequatur veniam inventore aliquid.</p>
     </main>
 </body>
 </html>
