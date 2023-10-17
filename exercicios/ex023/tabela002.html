@@ -21,6 +21,18 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky; /* fixar conteudo enquanto usa rolagem */
+            top: -1px;
+            background-color: gray;
         }
 
         td, th {
@@ -34,11 +46,6 @@
 
         tbody > tr:nth-child(2n) {      /* podendo usar odd ou even (impar ou par) no lugar de '2n'*/
             background-color: lightgray;
-        }
-
-        thead, tfoot {
-            background-color: gray;
-            color: white;
         }
     </style>
 </head>
